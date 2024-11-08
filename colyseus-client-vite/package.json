@@ -1,0 +1,25 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babylonjs/core": "^7.33.0",
+    "@babylonjs/inspector": "^7.33.0",
+    "@vitejs/plugin-basic-ssl": "^1.1.0",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vite-plugin-mkcert": "^1.17.6"
+  },
+  "dependencies": {
+    "babylonjs": "^7.33.0",
+    "babylonjs-gui": "^7.33.0",
+    "colyseus": "^0.15.17",
+    "colyseus.js": "^0.15.26"
+  }
+}
